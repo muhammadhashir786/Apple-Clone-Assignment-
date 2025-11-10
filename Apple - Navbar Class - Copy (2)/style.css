@@ -82,7 +82,7 @@
   padding-top: 53px;
 }
 
-h1 {
+.hero-section h1 {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -139,6 +139,10 @@ button {
   margin-bottom: 12px;
 }
 
+.image-2 h1 {
+  font-size: 52px;
+}
+
 .image h1 {
   font-weight: 200;
 }
@@ -161,7 +165,7 @@ button {
   height: 40px;
   width: 130px;
   border-radius: 30px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 
   font-size: 17px;
   font-weight: 400;
@@ -181,7 +185,7 @@ button {
 
 .image-2 .btn2:hover {
   background-color: #0071e3;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
 }
 
@@ -235,7 +239,7 @@ button {
 
 /* double image */
 
-.container1 {
+.container2 {
   background-color: white;
   /* width: 100%; */
   display: flex;
@@ -252,20 +256,20 @@ button {
   justify-content: space-between;
 }
 
-.box1 {
+.box4 {
   background-image: url("Images/macbook\ image\ 3.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.box2 {
+.box3 {
   color: white;
   background-image: url("Images/apple\ image\ 5.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.box2 .p2 {
+.box3 .p2 {
   color: white;
 }
 .box h2 {
@@ -302,7 +306,7 @@ button {
   font-size: 13px;
 }
 
-.container2 {
+.container1 {
   background-color: white;
   /* width: 100%; */
   display: flex;
@@ -310,19 +314,19 @@ button {
   gap: 12px;
 }
 
-.box3 {
+.box2 {
   background-image: url("Images/apple\ image\ 6.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.box4 {
+.box1 {
   background-image: url("Images/apple\ image\ 7.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.box4 h2 {
+.box1 h2 {
   color: black;
 }
 
@@ -377,6 +381,7 @@ button {
   .navbar,
   .navbar ul {
     gap: 20px;
+    justify-content: space-evenly;
   }
 }
 
@@ -392,6 +397,11 @@ button {
     justify-content: space-evenly;
   }
 
+  .navbar .right-items {
+    align-items: right;
+    justify-content: right;
+  }
+
   .navbar ul {
     display: none;
   }
@@ -399,6 +409,7 @@ button {
   .app-logo {
     height: 18px;
     width: 18px;
+    align-items: left;
   }
 
   .search-icon {
@@ -421,6 +432,99 @@ button {
 }
 
 /* Hero Section first image */
+
+@media (min-width: 734px) and (max-width: 1068px) {
+  .hero-section {
+    background-image: url("Web\ Img/hero iphone small.jpg");
+    height: 651px;
+    padding-top: 65px;
+  }
+
+  .hero-section h1 {
+    font-size: 43px;
+  }
+
+  .hero-section p {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 733px) {
+  .hero-section {
+    background-image: url("Web\ Img/hero iphone mobile.jpg");
+    height: 500px;
+    padding-top: 38px;
+  }
+
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .hero-section p {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .hero-section button {
+    font-size: 14px;
+    height: 35px;
+    width: 105px;
+  }
+
+  .hero-section .btn2 {
+    width: 60px;
+  }
+}
+
+/* Hero Section 2nd image */
+
+@media (min-width: 734px) and (max-width: 1068px) {
+  .image-2 {
+    background-image: url("Web\ Img/hero image 3 medium.jpg");
+    height: 650px;
+    padding-top: 60px;
+  }
+
+  .image-2 h1 {
+    font-size: 44px;
+  }
+
+  .image-2 p {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 733px) {
+  .image-2 {
+    background-image: url("Web\ Img/hero image 3 small.jpg");
+    height: 495px;
+    padding-top: 40px;
+  }
+
+  .image-2 h1 {
+    font-size: 30px;
+  }
+
+  .image-2 p {
+    font-size: 18px;
+  }
+
+  .image-2 .btn1 {
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    width: 110px;
+  }
+
+  .image-2 .btn2 {
+    height: 35px;
+    width: 60px;
+    font-size: 14px;
+  }
+}
 
 /* @media (max-width: 1068px) {
 

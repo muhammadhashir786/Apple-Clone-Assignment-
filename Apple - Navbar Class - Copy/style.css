@@ -235,7 +235,7 @@ button {
 
 /* double image */
 
-.container1 {
+.container2 {
   background-color: white;
   /* width: 100%; */
   display: flex;
@@ -252,7 +252,7 @@ button {
   justify-content: space-between;
 }
 
-.box1 {
+.box4 {
   background-image: url("Images/macbook\ image\ 3.jpg");
   background-size: cover;
   background-position: center;
@@ -302,7 +302,7 @@ button {
   font-size: 13px;
 }
 
-.container2 {
+.container1 {
   background-color: white;
   /* width: 100%; */
   display: flex;
@@ -316,13 +316,13 @@ button {
   background-position: center;
 }
 
-.box4 {
+.box1 {
   background-image: url("Images/apple\ image\ 7.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.box4 h2 {
+.box1 h2 {
   color: black;
 }
 
