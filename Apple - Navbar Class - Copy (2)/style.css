@@ -245,7 +245,7 @@ button {
   color: black;
 
   text-align: center;
-  padding-top: 53px;
+  padding-top: 58px;
 }
 
 .ipad-image h1 {
@@ -261,6 +261,7 @@ button {
 .ipad-image .btn1 {
   color: white;
 }
+
 /* double image */
 
 .container2 {
@@ -589,9 +590,54 @@ button {
   .ipad-image {
     background-image: url("Web\ Img/3. ipad air image medium.jpg");
     height: 650px;
-    padding-top: 60px;
+    padding-top: 65px;
+  }
+
+  .ipad-image img {
+    height: 38px;
+  }
+
+  .ipad-image p {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .ipad-image .btn1 {
+    color: white;
   }
 }
+
+@media (max-width: 733px) {
+  .ipad-image {
+    background-image: url("Web\ Img/3. ipad air image small .jpg");
+    /* background-size: cover; */
+    /* background-position: top; */
+    height: 500px;
+    padding-top: 40px;
+  }
+
+  .ipad-image img {
+    height: 25px;
+  }
+
+  .ipad-image p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+  }
+
+  .ipad-image button {
+    font-size: 15px;
+    height: 35px;
+    width: 110px;
+  }
+
+  .ipad-image .btn2 {
+    width: 60px;
+  }
+}
+
 /* @media (max-width: 1068px) {
 
   .hero-section {
