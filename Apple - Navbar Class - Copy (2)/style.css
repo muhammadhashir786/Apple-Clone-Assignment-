@@ -165,8 +165,7 @@ button {
   height: 40px;
   width: 130px;
   border-radius: 30px;
-  color: rgba(255, 255, 255, 0.8);
-
+  color: white;
   font-size: 17px;
   font-weight: 400;
 }
@@ -185,7 +184,7 @@ button {
 
 .image-2 .btn2:hover {
   background-color: #0071e3;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   cursor: pointer;
 }
 
@@ -232,7 +231,7 @@ button {
 }
 
 .ipad-image p {
-  font-size: 27px;
+  font-size: 29px;
   margin-top: 12px;
   margin-bottom: 20px;
 }
@@ -373,6 +372,22 @@ button {
   color: white;
 }
 
+.box5 .p2 {
+  margin-top: 0;
+}
+
+.box6 .p2 {
+  margin-top: 0;
+}
+
+.container3 .p1 {
+  margin-top: 8px;
+}
+
+.container3 .p2 {
+  margin-bottom: 14px;
+}
+
 /* Media Queries */
 
 /* for navbar */
@@ -500,7 +515,7 @@ button {
 @media (max-width: 733px) {
   .image-2 {
     background-image: url("Web\ Img/hero image 3 small.jpg");
-    height: 495px;
+    height: 500px;
     padding-top: 40px;
   }
 
