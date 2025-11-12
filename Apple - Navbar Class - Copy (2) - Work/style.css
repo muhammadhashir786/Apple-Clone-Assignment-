@@ -751,7 +751,7 @@ footer ul {
 
 /* Repsonsive 2 double image */
 
-/* first row */
+/* width: 1068 */
 
 @media (max-width: 1068px) {
   .box1 {
@@ -802,5 +802,108 @@ footer ul {
 
   .box {
     padding-top: 45px;
+  }
+}
+
+/* width: 734px */
+
+@media (max-width: 733px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 12px;
+  }
+
+  .box {
+    padding-top: 40px;
+  }
+
+  .box1 {
+    background-image: url("Web\ Img/airpods pro image small.jpg");
+    width: 100%;
+    height: 500px;
+  }
+
+  .box2 {
+    background-image: url("Web\ Img/apple watch small.jpg");
+    width: 100%;
+    height: 500px;
+  }
+
+  .box2 .apple-watch {
+    width: 225px;
+    margin-bottom: 8px;
+  }
+
+  .margin-top-p .p2 {
+    width: 22%;
+    margin: auto;
+  }
+
+  .box2 button {
+    margin-top: 16px;
+  }
+
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 12px;
+  }
+
+  .box {
+    padding-top: 40px;
+  }
+
+  .box5 {
+    background-image: url("Web\ Img/apple trade in small.jpg");
+    width: 100%;
+    height: 500px;
+  }
+
+  .box6 {
+    background-image: url("Web\ Img/apple card small.jpg");
+    width: 100%;
+    height: 500px;
+    margin-bottom: 12px;
+  }
+
+  .box3 .ipad-pro {
+    width: 225px;
+    margin: auto;
+    margin-bottom: 8px;
+    font-size: 28px;
+  }
+
+  .margin-top-p .p2 {
+    width: 22%;
+    margin: auto;
+  }
+
+  .box4 button {
+    margin-top: 16px;
+  }
+
+  .mac .p2 {
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .container3 .trade-in {
+    width: 125px;
+  }
+
+  .container3 p {
+    font-size: 19px;
+  }
+
+  .container3 .card {
+    width: 88px;
+  }
+
+  .box6 p {
+    font-size: 18px;
   }
 }
