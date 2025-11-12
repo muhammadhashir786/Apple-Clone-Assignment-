@@ -663,6 +663,13 @@ footer {
   font-size: 12px;
   color: #0000008f;
   background-color: #f5f5f7;
+
+  /* display: flex; */
+  /* margin: 0 auto; */
+
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
 }
 
 .foot-cont {
@@ -672,14 +679,17 @@ footer {
   align-items: center;
   justify-content: center;
 
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+
+  width: 51%;
+  margin: auto;
 }
 
 .footer-text {
   padding-top: 17px;
   padding-bottom: 11px;
-  width: 69%;
+  width: 100%;
 
   align-items: center;
   justify-content: center;
@@ -699,7 +709,7 @@ footer ul {
 }
 
 .list {
-  width: 69%;
+  width: 100%;
   font-size: 12px;
   line-height: 2.333373;
   font-weight: 400;
@@ -712,7 +722,7 @@ footer ul {
 }
 
 .list p {
-  color: black;
+  color: #000000e0;
   font-weight: 600;
   margin-top: 12px;
 }
@@ -722,7 +732,8 @@ footer ul {
 }
 
 .foot-last {
-  /* width: 100%; */
+  width: 69%;
+  width: 100%;
   padding-top: 37px;
   padding-bottom: 11px;
 }
@@ -736,4 +747,60 @@ footer ul {
   display: flex;
   gap: 105px;
   margin: 18px 0;
+}
+
+/* Repsonsive 2 double image */
+
+/* first row */
+
+@media (max-width: 1068px) {
+  .box1 {
+    background-image: url("Web\ Img/airpods pro image medium.jpg");
+    height: 491px;
+  }
+
+  .container1 .box2 {
+    background-color: url("Web\ Img/apple watch medium.jpg");
+    height: 491px;
+  }
+
+  .box3 {
+    background-image: url("Web\ Img/ipad pro medium.jpg");
+    height: 491px;
+  }
+
+  .box4 {
+    background-image: url("Web\ Img/macbook medium.jpg");
+    height: 491px;
+  }
+
+  .box5 {
+    background-image: url("Web\ Img/apple trade in medium.jpg");
+    height: 491px;
+  }
+
+  .box6 {
+    background-image: url("Web\ Img/apple card medium.jpg");
+    height: 491px;
+  }
+
+  .box h2 {
+    font-size: 30px;
+  }
+
+  .box p {
+    font-size: 18px;
+  }
+
+  .box .p2 {
+    margin-top: 0px;
+  }
+
+  .margin-top-p .p2 {
+    margin-top: 7px;
+  }
+
+  .box {
+    padding-top: 45px;
+  }
 }
