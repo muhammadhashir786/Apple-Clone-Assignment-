@@ -1,4 +1,4 @@
-/* Basic Properties To All Elements  */
+/* Basi(c Properties To All Elements  */
 
 * {
   box-sizing: border-box;
@@ -414,6 +414,139 @@ button {
   margin-bottom: 14px;
 }
 
+/* Footer */
+
+footer {
+  width: 100%;
+  font-size: 12px;
+  color: #0000008f;
+  background-color: #f5f5f7;
+
+  /* display: flex; */
+  /* margin: 0 auto; */
+
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
+}
+
+.foot-cont {
+  padding: 0px 22px;
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+
+  /* display: flex;
+  flex-direction: column; */
+
+  width: 51%;
+  margin: auto;
+
+  margin: 0;
+  width: 100%;
+  padding: 0px 25%;
+}
+
+@media (max-width: 1280px) {
+  .foot-cont {
+    padding: 0px 156px;
+  }
+
+  .foot-flex {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1068px) {
+  .foot-cont {
+    padding: 0px 22px;
+  }
+}
+
+@media (min-width: 834px) {
+  .list hr {
+    display: none;
+  }
+}
+
+@media (max-width: 834px) {
+  .foot-cont {
+    padding: 0px 5px;
+  }
+
+  .foot-last hr {
+    display: none;
+  }
+}
+
+.list hr {
+  width: 111%;
+}
+
+.footer-text {
+  padding-top: 17px;
+  padding-bottom: 11px;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text li {
+  padding-bottom: 0.8em;
+}
+
+footer hr {
+  width: 70%;
+  /* color: black; */
+}
+
+footer ul {
+  list-style: none;
+}
+
+.list {
+  width: 100%;
+  font-size: 12px;
+  line-height: 2.333373;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  padding-top: 10px;
+}
+
+.list p {
+  color: #000000e0;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.list-box {
+  width: 90%;
+}
+
+.foot-last {
+  width: 69%;
+  width: 100%;
+  padding-top: 37px;
+  padding-bottom: 11px;
+}
+
+.foot-last hr {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.foot-flex {
+  display: flex;
+  gap: 105px;
+  margin: 18px 0;
+}
+
 /* Media Queries */
 
 /* for navbar */
@@ -656,99 +789,6 @@ button {
   }
 } */
 
-/* Footer */
-
-footer {
-  width: 100%;
-  font-size: 12px;
-  color: #0000008f;
-  background-color: #f5f5f7;
-
-  /* display: flex; */
-  /* margin: 0 auto; */
-
-  /* align-items: center;
-  justify-content: center;
-  text-align: center; */
-}
-
-.foot-cont {
-  padding: 0px 22px;
-
-  text-align: left;
-  align-items: center;
-  justify-content: center;
-
-  /* display: flex;
-  flex-direction: column; */
-
-  width: 51%;
-  margin: auto;
-}
-
-.footer-text {
-  padding-top: 17px;
-  padding-bottom: 11px;
-  width: 100%;
-
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-text li {
-  padding-bottom: 0.8em;
-}
-
-footer hr {
-  width: 70%;
-  /* color: black; */
-}
-
-footer ul {
-  list-style: none;
-}
-
-.list {
-  width: 100%;
-  font-size: 12px;
-  line-height: 2.333373;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
-    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  display: flex;
-  /* flex-wrap: nowrap; */
-  padding-top: 10px;
-}
-
-.list p {
-  color: #000000e0;
-  font-weight: 600;
-  margin-top: 12px;
-}
-
-.list-box {
-  width: 90%;
-}
-
-.foot-last {
-  width: 69%;
-  width: 100%;
-  padding-top: 37px;
-  padding-bottom: 11px;
-}
-
-.foot-last hr {
-  margin-top: 20px;
-  width: 100%;
-}
-
-.foot-flex {
-  display: flex;
-  gap: 105px;
-  margin: 18px 0;
-}
-
 /* Repsonsive 2 double image */
 
 /* width: 1068 */
@@ -760,10 +800,18 @@ footer ul {
   }
 
   .container1 .box2 {
-    background-color: url("Web\ Img/apple watch medium.jpg");
+    background-color: url("Web\ Img/Apple Watch 11 Medium Small 733.jpg");
+    background-color: url("Web\ Img/Apple Watch 11 Medium Image 1068.jpg");
     height: 491px;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
+  .container1 .apple-watch {
+    width: 230px;
+  }
   .box3 {
     background-image: url("Web\ Img/ipad pro medium.jpg");
     height: 491px;
@@ -836,9 +884,10 @@ footer ul {
     margin-bottom: 8px;
   }
 
-  .margin-top-p .p2 {
-    width: 22%;
-    margin: auto;
+  .container1 .margin-top-p .p2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
 
   .box2 button {
@@ -936,9 +985,9 @@ footer ul {
   }
 
   .foot-flex {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 }
 
